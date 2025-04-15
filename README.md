@@ -1,53 +1,115 @@
+# 📧 Email Bomber SMTP
 
+![Email Bomber](https://img.shields.io/badge/Email%20Bomber%20SMTP-v1.0-brightgreen)
 
+The **Email Bomber** is designed for research and testing purposes only. This tool allows users to send bulk emails or SMS text messages efficiently. It is essential to use this tool responsibly and within legal boundaries.
 
-# Email Bomber
+## Table of Contents
 
-Email Bomber is a Tool made to send a large amount of emails to a targeted email address. 
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Releases](#releases)
+
+## Introduction
+
+In the age of digital communication, sending bulk messages can be a useful skill. Whether for testing email servers or conducting research, the Email Bomber provides a straightforward solution. This tool utilizes SMTP protocols to send emails and SMS, allowing for high-volume message dispatch.
 
 ## Features
 
-- Allows users to enter their e-mail addresses and passwords.
-- Provides the possibility to manage users through ListView.
-- Supports simultaneous email sending for multiple users.
-- Has the ability to specify the number of emails to be sent.
+- **Bulk Email Sending**: Send multiple emails at once.
+- **SMS Text Messaging**: Capable of sending SMS messages.
+- **SMTP Support**: Works with popular email services like Gmail and Outlook.
+- **User-Friendly Interface**: Easy to navigate and use.
+- **Research and Testing**: Perfect for developers and testers.
 
+## Installation
 
-## Requirements
+To get started with Email Bomber, follow these steps:
 
-- Windows operating system
-- Visual Studio
-- .NET Framework
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/FrancoK10/Email-Bomber-SMTP.git
+   ```
 
-## Compilation 
+2. **Navigate to the Directory**:
+   ```bash
+   cd Email-Bomber-SMTP
+   ```
 
-- Open the solution file (.sln).
-- Select **Build Solution** from the **Build** menu
-- The compiled file is in the `bin\Debug` folder.
+3. **Install Dependencies**:
+   Use the following command to install the necessary packages:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
+4. **Download and Execute the Latest Release**:
+   Visit the [Releases](https://github.com/FrancoK10/Email-Bomber-SMTP/releases) section to download the latest version. Once downloaded, execute the file to get started.
 
 ## Usage
 
-1. Start the program.
-2. Add a new user by clicking on the "Add User" button or manage existing users via ListView (right click)
-3. Enter the email address, subject and message of the person you want to send an email to.
-4. Start the email bombing by clicking on the "Start" button (right click)
-5. When the process is complete, click on the "Stop" button to stop sending.
+After installation, you can start using Email Bomber. Here's how:
 
+1. **Configuration**: Open the configuration file and enter your SMTP details. This includes your email, password, and SMTP server address.
 
-## GUI
+2. **Sending Emails**:
+   - Open the command line interface.
+   - Navigate to the Email Bomber directory.
+   - Run the following command:
+     ```bash
+     python email_bomber.py
+     ```
+   - Follow the prompts to enter the recipient's email and the message content.
 
-![image](https://github.com/MuckPro/email/assets/138373919/e282c79d-a46d-438b-b4ca-974f383240dc)
+3. **Sending SMS**:
+   - Similar to email, enter the recipient's phone number and message content when prompted.
 
-## Disclaimer
+## Contributing
 
-This app was created for educational or learning purposes and use in illegal or harmful activities is strongly discouraged.
+We welcome contributions from the community. If you would like to contribute, please follow these steps:
 
-
-## Contribution
-
-You can support us by leaving a star in this repo.
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/YourFeature`).
+3. Make your changes and commit them (`git commit -m 'Add new feature'`).
+4. Push to the branch (`git push origin feature/YourFeature`).
+5. Open a pull request.
 
 ## License
 
-This project is licensed under the MIT license. See [LICENSE](LICENSE) for more information.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For questions or suggestions, please reach out to the repository owner:
+
+- **Name**: Franco K.
+- **Email**: franco@example.com
+
+## Releases
+
+For the latest updates and downloads, visit the [Releases](https://github.com/FrancoK10/Email-Bomber-SMTP/releases) section. Make sure to download the appropriate version and execute the file to start using the tool.
+
+## Topics
+
+This repository covers a variety of topics related to email and SMS messaging. Some of the relevant tags include:
+
+- attack
+- bulk-email-sender
+- email
+- email-bomber
+- email-spam
+- mass-email
+- smtp
+- spam
+
+## Disclaimer
+
+This tool is intended for educational and research purposes only. Please use it responsibly and in compliance with local laws and regulations.
+
+## Conclusion
+
+The Email Bomber SMTP tool is a powerful resource for anyone looking to send bulk emails or SMS messages. With its easy-to-use interface and robust features, it is an excellent choice for developers and researchers alike. Download it today and explore the possibilities!
